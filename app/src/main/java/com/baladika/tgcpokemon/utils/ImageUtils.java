@@ -55,7 +55,7 @@ public class ImageUtils {
             fos.flush();
             fos.close();
 
-            Toast.makeText(context, "Berhasil menyimpan gambar", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "Berhasil menyimpan gambar "+appDirectory, Toast.LENGTH_SHORT).show();
         } catch (IOException e) {
             e.printStackTrace();
             Toast.makeText(context, "Gagal menyimpan gambar", Toast.LENGTH_SHORT).show();
